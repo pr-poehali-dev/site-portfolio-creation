@@ -135,7 +135,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {portfolioItems.map((item) => (
               <Card key={item.id} className="overflow-hidden border-0 shadow-sm hover-scale transition-all">
-                <div className="aspect-video bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
+                <div className="aspect-video from-primary/20 to-primary/5 flex items-center justify-center bg-[#ffffff]">
                   <Icon name="Image" size={48} className="text-primary/40" />
                 </div>
                 <CardContent className="p-6">
