@@ -40,10 +40,10 @@ const Index = () => {
   };
 
   const portfolioItems = [
-    { id: 1, title: 'Проект 1', description: 'Описание проекта 1', category: 'Web Design' },
-    { id: 2, title: 'Проект 2', description: 'Описание проекта 2', category: 'Development' },
-    { id: 3, title: 'Проект 3', description: 'Описание проекта 3', category: 'Branding' },
-    { id: 4, title: 'Проект 4', description: 'Описание проекта 4', category: 'UI/UX' },
+    { id: 1, title: 'Проект 1', description: 'Описание проекта 1', category: 'Web Design', image: 'https://cdn.poehali.dev/files/image.png' },
+    { id: 2, title: 'Проект 2', description: 'Описание проекта 2', category: 'Development', image: 'https://cdn.poehali.dev/files/photo_2025-11-08_00-13-03.jpg' },
+    { id: 3, title: 'Проект 3', description: 'Описание проекта 3', category: 'Branding', image: 'https://cdn.poehali.dev/files/photo_2025-11-01_02-22-09.jpg' },
+    { id: 4, title: 'Проект 4', description: 'Описание проекта 4', category: 'UI/UX', image: 'https://cdn.poehali.dev/files/photo_2025-11-03_19-12-16.jpg' },
   ];
 
   return (
@@ -135,8 +135,12 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {portfolioItems.map((item) => (
               <Card key={item.id} className="overflow-hidden border-0 shadow-sm hover-scale transition-all">
-                <div className="aspect-video from-primary/20 to-primary/5 flex items-center justify-center bg-[#ffffff]">
-                  <Icon name="Image" size={48} className="text-primary/40" />
+                <div className="aspect-video bg-gray-100 overflow-hidden">
+                  <img 
+                    src={item.image} 
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <CardContent className="p-6">
                   <span className="text-xs font-medium text-primary mb-2 block">{item.category}</span>
