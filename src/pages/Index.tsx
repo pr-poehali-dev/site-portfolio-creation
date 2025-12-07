@@ -226,9 +226,7 @@ const Index = () => {
               <h3 className="text-xl font-bold mb-4">Контакты</h3>
               <div className="space-y-2 text-background/80">
                 <p>
-                  <a href="tel:+79991234567" className="hover:text-primary transition-colors">
-                    +7 (999) 123-45-67
-                  </a>
+                  <a href="tel:+79991234567" className="hover:text-primary transition-colors">+7 (920) 740-45-42</a>
                 </p>
                 <p>
                   <a href="mailto:example@mail.ru" className="hover:text-primary transition-colors">
