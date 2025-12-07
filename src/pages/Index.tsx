@@ -243,9 +243,7 @@ const Index = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
-                >
-                  <Icon name="Send" size={24} />
-                </a>
+                >danka.trofim2007@mail.ru</a>
                 <a 
                   href="https://github.com/username" 
                   target="_blank" 
