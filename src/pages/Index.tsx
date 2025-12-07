@@ -40,10 +40,10 @@ const Index = () => {
   };
 
   const portfolioItems = [
-    { id: 1, title: 'Проект 1', description: 'Описание проекта 1', category: 'Web Design', image: 'https://cdn.poehali.dev/files/image.png' },
-    { id: 2, title: 'Проект 2', description: 'Описание проекта 2', category: 'Development', image: 'https://cdn.poehali.dev/files/photo_2025-11-08_00-13-03.jpg' },
-    { id: 3, title: 'Проект 3', description: 'Описание проекта 3', category: 'Branding', image: 'https://cdn.poehali.dev/files/photo_2025-11-01_02-22-09.jpg' },
-    { id: 4, title: 'Проект 4', description: 'Описание проекта 4', category: 'UI/UX', image: 'https://cdn.poehali.dev/files/photo_2025-11-03_19-12-16.jpg' },
+    { id: 1, title: 'СтудВесна 2025', description: 'Участвовал в кастинге на СтудВесну 2025 с театральным номером на память физических действий, к огромному сожалению не смог его пройти, но получил много новых навыков и популярность', category: 'Активность', image: 'https://cdn.poehali.dev/files/image.png' },
+    { id: 2, title: 'Коммуникатор "Староста-Профорг-Куратор"', description: 'Был приглашен на мероприятие в качестве заместителя старосты, смог поговорить с разными студентами и кураторами, высказаться вместе с другими студентами и хорошо провести время', category: 'Активность', image: 'https://cdn.poehali.dev/files/photo_2025-11-08_00-13-03.jpg' },
+    { id: 3, title: 'Проект "Вышка 2025"', description: 'Был приглашен на данное мероприятие председателем профбюро института ФПТИ ГУАП, смог поучаствовать в насыщенной программе на протяжении 3-ех дней и попасть в топ-20 активистов', category: 'Активность', image: 'https://cdn.poehali.dev/files/photo_2025-11-01_02-22-09.jpg' },
+    { id: 4, title: 'Школа старост ГУАП', description: 'Поучаствовал в данной школе в качестве активиста, учился новым навыкам на протяжении нескольких недель, после попал на лофт Старост, где смог постоять на баре. Так же смог получить грамоту за актив в школе', category: 'Активность', image: 'https://cdn.poehali.dev/files/photo_2025-11-03_19-12-16.jpg' },
   ];
 
   return (
