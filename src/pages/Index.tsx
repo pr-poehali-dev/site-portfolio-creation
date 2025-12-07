@@ -107,9 +107,7 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Обо мне</h2>
           <Card className="border-0 shadow-sm">
             <CardContent className="p-8 md:p-12">
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Привет! Я профессиональный веб-разработчик и дизайнер с опытом создания современных цифровых продуктов.
-              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">Привет! Я профессиональный активист с большим опытом посещения разных мероприятий внутри ВУЗ ГУАП.</p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 Моя специализация включает разработку интерактивных веб-приложений, создание адаптивных дизайн-систем и оптимизацию пользовательского опыта.
               </p>
