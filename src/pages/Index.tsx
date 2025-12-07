@@ -99,29 +99,22 @@ const Index = () => {
       </section>
 
       <section id="about" className="py-20 px-6 bg-gray-50">
-        <div className="container mx-auto max-w-4xl">
+        <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Обо мне</h2>
           <Card className="border-0 shadow-sm">
             <CardContent className="p-8 md:p-12">
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">Привет! Я профессиональный активист с большим опытом посещения разных мероприятий внутри ВУЗ ГУАП.</p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">Моя специализация включает посещение мероприятий, участие во всех активностях и наглое попадание в объективы фотографов</p>
-              <p className="text-lg text-muted-foreground leading-relaxed">Работаю с разным форматом мероприятий: мастер-классы, квесты, день открытых дверей, акселератор, круглый стол, лекция, опрос, форум, хакатон, тренинг, конкурс, семинар</p>
-              
-              <div className="grid md:grid-cols-3 gap-6 mt-12">
-                <div className="text-center bg-[#ffffff]">
-                  <Icon name="Code" size={32} className="mx-auto mb-3 text-primary" />
-                  <h3 className="font-semibold mb-2">Разработка</h3>
-                  <p className="text-sm text-muted-foreground">Чистый код и лучшие практики</p>
+              <div className="grid md:grid-cols-[300px_1fr] gap-8 items-start">
+                <div className="w-full">
+                  <img 
+                    src="https://cdn.poehali.dev/files/photo_2025-11-03_19-12-16.jpg" 
+                    alt="Фото профиля"
+                    className="w-full h-auto rounded-lg object-cover"
+                  />
                 </div>
-                <div className="text-center">
-                  <Icon name="Palette" size={32} className="mx-auto mb-3 text-primary" />
-                  <h3 className="font-semibold mb-2">Дизайн</h3>
-                  <p className="text-sm text-muted-foreground">Минималистичный и функциональный</p>
-                </div>
-                <div className="text-center">
-                  <Icon name="Zap" size={32} className="mx-auto mb-3 text-primary" />
-                  <h3 className="font-semibold mb-2">Оптимизация</h3>
-                  <p className="text-sm text-muted-foreground">Быстрая загрузка и производительность</p>
+                <div>
+                  <p className="text-lg text-muted-foreground leading-relaxed mb-6">Привет! Я профессиональный активист с большим опытом посещения разных мероприятий внутри ВУЗ ГУАП.</p>
+                  <p className="text-lg text-muted-foreground leading-relaxed mb-6">Моя специализация включает посещение мероприятий, участие во всех активностях и наглое попадание в объективы фотографов</p>
+                  <p className="text-lg text-muted-foreground leading-relaxed">Работаю с разным форматом мероприятий: мастер-классы, квесты, день открытых дверей, акселератор, круглый стол, лекция, опрос, форум, хакатон, тренинг, конкурс, семинар</p>
                 </div>
               </div>
             </CardContent>
