@@ -239,18 +239,20 @@ const Index = () => {
               <h3 className="text-xl font-bold mb-4">Соцсети</h3>
               <div className="flex gap-4">
                 <a 
-                  href="https://t.me/username" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:text-primary transition-colors"
-                >danka.trofim2007@mail.ru</a>
-                <a 
-                  href="https://github.com/username" 
+                  href="https://t.me/mackwu" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  <Icon name="Github" size={24} />
+                  <Icon name="Send" size={24} />
+                </a>
+                <a 
+                  href="https://vk.com/dtrofimov2007" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  <Icon name="User" size={24} />
                 </a>
               </div>
             </div>
