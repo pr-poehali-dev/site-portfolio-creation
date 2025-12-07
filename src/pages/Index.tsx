@@ -229,9 +229,8 @@ const Index = () => {
                   <a href="tel:+79991234567" className="hover:text-primary transition-colors">+7 (920) 740-45-42</a>
                 </p>
                 <p>
-                  <a href="mailto:example@mail.ru" className="hover:text-primary transition-colors">
-                    example@mail.ru
-                  </a>
+                  <a href="mailto:example@mail.ru" className="hover:text-primary transition-colors">danka.trofim2007@mail.ru
+</a>
                 </p>
               </div>
             </div>
