@@ -108,7 +108,7 @@ const Index = () => {
               <p className="text-lg text-muted-foreground leading-relaxed">Работаю с разным форматом мероприятий: мастер-классы, квесты, день открытых дверей, акселератор, круглый стол, лекция, опрос, форум, хакатон, тренинг, конкурс, семинар</p>
               
               <div className="grid md:grid-cols-3 gap-6 mt-12">
-                <div className="text-center">
+                <div className="text-center bg-[#ffffff]">
                   <Icon name="Code" size={32} className="mx-auto mb-3 text-primary" />
                   <h3 className="font-semibold mb-2">Разработка</h3>
                   <p className="text-sm text-muted-foreground">Чистый код и лучшие практики</p>
