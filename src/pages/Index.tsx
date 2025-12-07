@@ -208,9 +208,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <h3 className="text-xl font-bold mb-4">Портфолио</h3>
-              <p className="text-background/80">
-                Создаю современные веб-решения для бизнеса
-              </p>
+              <p className="text-background/80">Создаю современные решения проблем с активом</p>
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Контакты</h3>
