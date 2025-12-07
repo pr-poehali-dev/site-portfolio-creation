@@ -108,9 +108,7 @@ const Index = () => {
           <Card className="border-0 shadow-sm">
             <CardContent className="p-8 md:p-12">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">Привет! Я профессиональный активист с большим опытом посещения разных мероприятий внутри ВУЗ ГУАП.</p>
-              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Моя специализация включает разработку интерактивных веб-приложений, создание адаптивных дизайн-систем и оптимизацию пользовательского опыта.
-              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">Моя специализация включает посещение мероприятий, участие во всех активностях и наглое попадание в объективы фотографов</p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Работаю с современным стеком технологий: React, TypeScript, Tailwind CSS, Node.js. Всегда открыт к новым проектам и интересным задачам.
               </p>
