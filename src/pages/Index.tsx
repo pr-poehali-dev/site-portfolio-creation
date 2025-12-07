@@ -85,9 +85,7 @@ const Index = () => {
       <section id="home" className="pt-32 pb-20 px-6">
         <div className="container mx-auto max-w-4xl text-center">
           <div className="animate-fade-in">
-            <h2 className="text-6xl md:text-7xl font-bold mb-6 text-foreground">
-              Создаю цифровые<br />решения
-            </h2>
+            <h2 className="text-6xl md:text-7xl font-bold mb-6 text-foreground">Создаю активную деятельность</h2>
             <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
               Специализируюсь на разработке современных веб-приложений и дизайне пользовательских интерфейсов
             </p>
